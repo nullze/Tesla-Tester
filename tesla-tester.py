@@ -64,7 +64,7 @@ while True:
     vehicle_config = dataloaded.get('vehicle_config')
     vehicle_state = dataloaded.get('vehicle_state')  
 
-    print('*****[[ Safekeep Cybersecurity: Tesla Connect ]]*****\n')
+    print('*****[[ Cylect.io: Tesla Connect ]]*****\n')
 
     print('-------------Connected to: '+ vehicle_state.get('vehicle_name') + ' | ' + vehicle_config.get('car_type'))
     print('\n')
